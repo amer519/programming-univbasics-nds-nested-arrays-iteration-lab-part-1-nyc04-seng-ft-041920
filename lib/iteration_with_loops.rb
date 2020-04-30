@@ -4,8 +4,8 @@ def find_even_values(src)
    while row < src.count do
      element = 0
     while element < src[row].count do
-     even_num = if src[row][element].even?
-     p even_num
+      if src[row][element].even?
+     p src[row][element]
                end
    element += 1
    end
